@@ -10,16 +10,11 @@ private:
     string str;
 
 public:
-    // Конструктор
+
     String(const string& inputStr);
 
-    // Метод для отримання рядка
     string getString() const;
-
-    // Метод для обчислення довжини рядка
-    size_t getLength() const;
-
-    // Метод для обернення рядка
+    size_t getLength() const;    
     std::string reverseString() const;
 };
 
