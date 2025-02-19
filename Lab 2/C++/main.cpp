@@ -16,7 +16,7 @@ int main()
     cout << "Enter y2: ";
     cin >> y2;
 
-    LineSegment segment(x1, x2, y1, y2);
+    LineSegment segment(x1, y1, x2, y2);
 
     cout << "--------------------------------" << endl;
     cout << "X1: " << x1 << " Y1: " << y1 << endl;
