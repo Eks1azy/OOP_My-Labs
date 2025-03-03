@@ -1,6 +1,6 @@
 using System;
 
-class LineSegment
+public class LineSegment
 {
     private double x1;
     private double y1;
