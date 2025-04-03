@@ -6,14 +6,14 @@ using namespace Artem;
 
 int main()
 {
-    LetterString s("zxcvbnmasdf");
+    LetterString value("qwedsadas");
 
-    cout << "Before sorting: " << s.getString() << endl;
+    cout << "Before sorting: " << value.getString() << endl;
 
-    s.sortString();
+    value.sortString();
 
-    cout << "After sorting: " << s.getString() << endl;
-    cout << "Length: " << s.getLength() << endl;
+    cout << "After sorting: " << value.getString() << endl;
+    cout << "Length: " << value.getLength() << endl;
 
     return 0;
 }
