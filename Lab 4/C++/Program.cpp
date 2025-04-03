@@ -4,38 +4,34 @@ using namespace Artem;
 
 StringBegin::StringBegin() // Конструктор за замовчуванням 
 {
-    str = "";
+    _str = "";
 }
-
 StringBegin::StringBegin(const std::string& s) // Конструктор з параметрами
 {
-    str = s;
+    _str = s;
 }
-
 StringBegin::StringBegin(const StringBegin& other) // Конструктор копіювання
 {
-    str = other.str;
+    _str = other._str;
 }
-
-
 StringBegin::~StringBegin()// Деструктор 
 {
 
 }
 
 // Методи
-
 int StringBegin::getLength() const 
 {
-    return str.length();
+    return _str.length();
 }
 
 void StringBegin::setString(const std::string& s) // Це метод для зміни значення
 {
-    str = s;
+    _str = s;
 }
 
 std::string StringBegin::getString() const  // Це метод для отримання значення
 {
-    return str;
+    return _str;
 }
+
