@@ -8,12 +8,12 @@ namespace Artem
     class StringBegin 
     {
     private:
-        std::string str;
-    protected:
+        std::string _str;
+    protected: //Члени класу, позначені як protected, доступні: Всередині самого класу. Всередині похідних класів.
         void setString(const std::string& s); // Дозволяє змінювати str у похідних класах
     public:
         StringBegin(); // Конструктор за замовчуванням
-        explicit StringBegin(const std::string& s); // Конструктор з параметром
+        StringBegin(const std::string& s); // Конструктор з параметром
         StringBegin(const StringBegin& other); // Конструктор копіювання
         virtual ~StringBegin(); // Віртуальний деструктор
 
