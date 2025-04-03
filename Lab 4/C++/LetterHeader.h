@@ -8,7 +8,7 @@ class LetterString : public StringBegin
 {
 public:
     LetterString(); // Конструктор за замовчуванням
-    explicit LetterString(const std::string& s); // Конструктор з параметром
+    LetterString(const std::string& s); // Конструктор з параметром
     LetterString(const LetterString& other); // Конструктор копіювання
 
 
